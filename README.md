@@ -70,6 +70,7 @@ the alarm, emergency notification, and security record, regardless of mode.
 
 ## Architecture and event flow
 
+```mermaid
 flowchart TD
     Input["Console input"] --> Parser["Command Parser<br/>CommandProcessor"]
 
@@ -83,6 +84,7 @@ flowchart TD
     Bus -->|"Publish/Dispatch events<br/>All three types — optional"| Audit["AuditService"]
 
     Security -.->|"Read current mode"| State
+```
 
 1. `main.py` invokes the CLI entry point.
 2. `app.py` creates the state, bus, and services, and registers subscriptions.
