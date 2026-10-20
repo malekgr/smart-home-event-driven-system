@@ -1,0 +1,5 @@
+mode home
+motion bedroom
+door_open back_door
+smoke garage
+exit

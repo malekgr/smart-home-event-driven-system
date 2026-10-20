@@ -1,0 +1,5 @@
+mode away
+motion living_room
+door_open front_door
+smoke kitchen
+exit

@@ -1,0 +1,10 @@
+motion living_room
+door_open front_door
+mode away
+motion hallway
+door_open back_door
+mode home
+motion bedroom
+door_open front_door
+smoke kitchen
+exit

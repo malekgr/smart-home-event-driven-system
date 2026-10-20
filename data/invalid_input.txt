@@ -1,0 +1,11 @@
+mode vacation
+motion
+door_open
+smoke
+unknown kitchen
+mode home extra
+motion living room
+exit extra
+help
+motion living_room
+exit

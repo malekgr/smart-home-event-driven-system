@@ -1,0 +1,20 @@
+System mode changed to AWAY.
+Event Published: MotionDetected
+Location: living_room
+LightService: Living room light turned ON.
+SecurityService: Motion recorded in living_room.
+SecurityService: ALERT - Motion detected while system is in AWAY mode.
+
+Event Published: DoorOpened
+Door: front_door
+SecurityService: Front door opening recorded.
+SecurityService: ALERT - Front door opened while system is in AWAY mode.
+NotificationService: Notification sent - Front door was opened.
+
+Event Published: SmokeDetected
+Location: kitchen
+AlarmService: FIRE ALARM ACTIVATED.
+NotificationService: EMERGENCY - Smoke detected in kitchen.
+SecurityService: Smoke emergency recorded for kitchen.
+
+Program terminated.
