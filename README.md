@@ -135,12 +135,3 @@ python3 main.py --demo-failure < data/sample_input.txt
 ```
 
 If a consumer fails, the Event Bus logs the error and continues delivering the event to the remaining subscribers.
-
-
-## Automated tests
-
-The included tests provide additional verification of the required behavior and are not needed to run the application.
-
-```bash
-python3 -m unittest discover -s tests -v
-```
